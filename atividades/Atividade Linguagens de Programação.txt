@@ -1,0 +1,82 @@
+﻿1 - Qual é a definição de estrutura de controle?
+Pode ser definida como uma ou mais sentenças, dependendo da linguagem, as quais realizam o controle da execução de demais sentenças atreladas a ela.
+
+
+2 - O que Böhm e Jocopini provaram a respeito dos diagramas de fluxo?
+Segundo eles, os diagramas de fluxo, os  quais são algoritmos, podem ser escritos para uma linguagem em duas sentenças de controle. Sendo uma delas para decisão do caminho do fluxo e a outra com o intuito de decidir as iterações controladas de forma lógica.
+
+
+3 - Qual é a definição de bloco? 
+Em tese, os blocos fazem divisões no código. Sejam essas divisões com o intuito de restringir operações, variáveis ou até mesmo sentenças para que sejam executadas com devido cuidado e proteção, se for o caso. 
+
+
+4 - Quais são as questões de projeto comuns a todas as sentenças de seleção e de controle de iteração?
+As questões de projeto comuns são:
+* Em relação ao tipo da expressão ou variável;
+* Como se dá a especificação de suas formações;
+* Como se controla sua formação, seja o laço ou seleção;
+* O escopo da expressão ou variável deve-se levar em consideração;
+* Suas expressões ou variáveis podem ser manipuladas;
+
+
+5 - Quais são as questões de projeto para estruturas de seleção?
+* O tipo da expressão;
+* Especificação dos parâmetros;
+* Como manipular suas expressões
+* Haverá ambiguidades na sua construção e como contornar;
+
+
+6 -  O que é não usual acerca do projeto de Python em termos de sentenças compostas?
+Diferentemente de outras linguagens como C, Pearl e JavaScript que baseiam a formação de sentenças compostas através de chaves “{}”. Python faz o uso de indentação para suas sentenças compostas.
+
+
+7 -  Quais são as soluções para o problema de aninhamento para os seletores de dois caminhos?
+Uma das soluções propostas foi em Java, a qual a sua semântica estática irá “linkar” o “else” com o “if” mais próximo que ainda não esteja “linkado”. Outra opção a esse obstáculo é o uso de uma palavra especial que determine seu fim e início, essa opção seria uma solução sintática. Em Python a solução utilizada é o uso da indentação. Por fim, as linguagens baseadas em C, fazem o uso de sentenças compostas definidas em chaves.
+
+
+8 - Quais são as questões de projeto para sentenças de seleção múltipla?
+O projeto da seleção múltipla leva em consideração: 
+* Qual o tipo da expressão que realiza o controle;
+* Seleção de sentenças, sejam elas individuais, compostas ou sequenciais;
+* Como se dá a especificação de valores;
+* Se apenas um segmento pode ser selecionado pelo fluxo de exceção;
+* Qual pode ser a terminação quando a o resultado da avaliação de expressão é um valor sem segmento algum.
+
+
+9 - Dentre quais duas características de linguagem existe um compromisso ao decidir se mais de um segmento selecionável é executado em uma construção de seleção múltipla?
+Dentro da seleção múltipla, as características principais que a envolvem são a flexibilidade e confiabilidade. Não é possível, no âmbito das sentenças múltiplas, manter as duas de forma inteiriça. Cabe ao projetista escolher disponibilizar mais flexibilidade em detrimento da confiabilidade ou vice-versa. 
+
+
+10 -  O que é não usual acerca da sentença de seleção múltipla de C?
+A sentença de seleção múltipla de C abriu mão de uma confiabilidade para dar lugar a mais flexibilidade ao uso de sua sentença de seleção múltipla. Uma vez que nela faz-se possível o posicionamento de expressões de acordo com o programador, sem limitação a ser seguida.
+
+
+13 -  Quais são as questões de projeto para todas as sentenças de controle iterativas?
+* Controle pré ou pós teste;
+* O laço de controle terá um forma de laço de contagem ou forma de uma sentença;
+* Deve-se levar em consideração o escopo e o tipo da variável do laço
+* Os parâmetros do laço serão analisados mais de uma vez;
+* É possível realizar alteração de um parâmetro do laço e manter o controle sobre o laço;
+* Como é feito o controle da operação do laço;
+
+
+14 - Quais são as questões de projeto para as sentenças de laços controlados por contador?
+* Deve-se levar em consideração o escopo e o tipo da variável do laço
+* Os parâmetros do laço serão analisados mais de uma vez;
+* É possível realizar alteração de um parâmetro do laço e manter o controle sobre o laço.
+
+
+15 - O que é uma sentença de laço com pré-teste? O que é uma sentença de laço com pós-teste?
+A sentença de laço com pré-teste baseia-se que seu teste lógico seja feito antes da execução do que está em seu escopo. Por outro lado, o pós-teste realiza o teste lógico após a execução do que está envolto por ele.
+
+
+16 - Explique como a sentença Do do Fortran funciona.
+O Do em Fortran pode significar duas sentenças. A primeira, tem sua construção com seu rótulo, início e seu fim, em geral. A segunda, faz o uso de uma palavra especial indicando seu fim. O Do funciona como um laço de repetição que realiza sentenças com base em suas iterações, tendo um contador como base para realizar o laço. Seus parâmetros não possuem influências sobre o número de iterações realizadas.
+
+
+17 - Qual é a diferença entre a sentença for de C++ e a de Java?
+A principal diferença entre o for de C++ e Java é de que em Java o for só aceita expressões consideradas booleanas.
+
+
+18 - De que maneira a sentença for do C é mais flexível do que a de muitas outras linguagens?
+A flexibilidade do for em C pode ser entendida que suas expressões originais podem ser múltiplas expressões abrindo espaço para que suas variáveis possuam diferentes tipos.

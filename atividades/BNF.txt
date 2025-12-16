@@ -1,0 +1,125 @@
+#Operações Básicas
+<cálculo> ::= <expressão>  
+<expressao> ::= <expressao> + <termo>
+		| <expressao> - <termo>
+		| <expressao> 
+<termo>::= <termo> *<elemento>
+	   |<termo>/<elemento>
+	   |<elemento>
+<elemento>::= (<expressao>)
+	      |<var>
+	      |<numero>
+<numero>::= <digito>
+	    |<digito><numero>
+<digito>::= '0'|'1'|'2'|'3'|'4'|'5'|'6'|'7'|'8'|'9'
+<var>::= id
+
+
+
+#Comparação - IF
+<comparação> ::=  "if" "("<condicao>")" <execucao>  
+		  | "if" "("<condicao>")" <execucao> "else"<execucao>
+<condicao>::= <algebrico>
+	      |<condicao> && <algebrico>
+	      |<condicao> || <algebrico>
+<algebrico>::= <var> | !<var>
+	       | <var><operador><var>
+	       | <var><operador><expressao>
+<execucao>::= <var>"="<expressao>
+	     |<var><operacao>
+	     |<operacao><var>
+	     [<execucao>]
+<operacao>::='++'|'--'
+<operador>::= '>'|'<'|'<='|'>='|'=='
+<expressao> ::= <expressao> + <termo>
+		| <expressao> - <termo>
+		| <expressao> 
+<termo>::= <termo> *<elemento>
+	   |<termo>/<elemento>
+	   |<elemento>
+<elemento>::= (<expressao>)
+	      |<var>
+	      |<numero>
+<numero>::= <digito>
+	    |<digito><numero>
+<var>::=id
+<digito>::= '0'|'1'|'2'|'3'|'4'|'5'|'6'|'7'|'8'|'9'
+
+
+
+#Repetição - While
+
+<repetição> ::= "while" "("<condicao>")" <execucao> 
+<condicao>::= <algebrico>
+	      |<condicao> && <algebrico>
+	      |<condicao> || <algebrico>
+<algebrico>::= <var> | !<var>
+	       | <var><operador><var>
+	       | <var><operador><expressao>
+<execucao>::= <var>"="<expressao>
+	     |<var><operacao>
+	     |<operacao><var>
+	     [<execucao>|<condicao><repeticao>]
+<operacao>::='++'|'--'
+<operador>::= '>'|'<'|'<='|'>='|'=='
+<var>::= id
+<expressao> ::= <expressao> + <termo>
+		| <expressao> - <termo>
+		| <expressao> 
+<termo>::= <termo> *<elemento>
+	   |<termo>/<elemento>
+	   |<elemento>
+<elemento>::= (<expressao>)
+	      |<var>
+	      |<numero>
+<numero>::= <digito>
+	    |<digito><numero>
+<digito>::= '0'|'1'|'2'|'3'|'4'|'5'|'6'|'7'|'8'|'9'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    	
+
